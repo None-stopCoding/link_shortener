@@ -5,3 +5,4 @@ This portfolio app contains registration and authorization and so called link sh
 ## Хорошая практика
  - обрабатывать асинхронные запросы конструкцией try catch
  - в express можно добавлять бесконечное количество middleware-в при выполнении post, get,... запросов
+ - nodejs воспринимает req.body как stream-ы
