@@ -21,7 +21,7 @@ export const useAuth = () => {
         localStorage.removeItem(storageName);
     }, []);
 
-    // Если в localstorage хранится уже логин с паролем, то автоматически логиним пользователя
+    // Если в localstorage хранится уже логин c токеном, то автоматически логиним пользователя
     useEffect(() => {
         const data = JSON.parse(localStorage.getItem(storageName));
 
