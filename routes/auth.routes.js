@@ -4,7 +4,7 @@ const {check, validationResult} = require('express-validator');
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
 const config = require('config');
-const router = new Router();
+const router = Router();
 
 // /api/auth/register
 router.post(
