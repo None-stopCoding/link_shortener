@@ -17,7 +17,7 @@ export const LinksPage = () => {
 
             setLinks(fetched);
         } catch (e) {}
-    }, []);
+    }, [token, request]);
 
     useEffect(() => {
         fetchLinks();
